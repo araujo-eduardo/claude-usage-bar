@@ -1,0 +1,6 @@
+{
+  "name": "claude-usage-bar",
+  "owner": { "name": "Eduardo Araújo" },
+  "description": "usage-bar: Claude usage (limits, context, cost, 7-day history) in the Claude Code status line and a side pane",
+  "plugins": [{ "name": "usage-bar", "source": "./" }]
+}
