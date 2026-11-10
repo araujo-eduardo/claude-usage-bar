@@ -23,18 +23,18 @@ Um mod para o Claude Code que mantém seu uso do Claude à vista: limites, janel
 No prompt de uma sessão do Claude Code no terminal:
 
 ```
-/plugin install usage-bar --marketplace eduardo-araujo-isi/claude-usage-bar
+/plugin install usage-bar --marketplace araujo-eduardo/claude-usage-bar
 ```
 
 Pelo shell:
 
 ```bash
-claude plugin install usage-bar --marketplace eduardo-araujo-isi/claude-usage-bar
+claude plugin install usage-bar --marketplace araujo-eduardo/claude-usage-bar
 ```
 
 Responda `y` para adicionar o marketplace e escolha o escopo (o padrão é o escopo de usuário).
 
-No app desktop, onde `/plugin` não funciona: clique em **+** ao lado da caixa do prompt, depois em **Plugins**, **Add marketplace** com `eduardo-araujo-isi/claude-usage-bar` e então **Add plugin**.
+No app desktop, onde `/plugin` não funciona: clique em **+** ao lado da caixa do prompt, depois em **Plugins**, **Add marketplace** com `araujo-eduardo/claude-usage-bar` e então **Add plugin**.
 
 ## Configuração
 

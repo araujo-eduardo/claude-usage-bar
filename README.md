@@ -23,18 +23,18 @@ A Claude Code mod that keeps your Claude usage in view: rate limits, context win
 At the prompt of a Claude Code terminal session:
 
 ```
-/plugin install usage-bar --marketplace eduardo-araujo-isi/claude-usage-bar
+/plugin install usage-bar --marketplace araujo-eduardo/claude-usage-bar
 ```
 
 From a shell:
 
 ```bash
-claude plugin install usage-bar --marketplace eduardo-araujo-isi/claude-usage-bar
+claude plugin install usage-bar --marketplace araujo-eduardo/claude-usage-bar
 ```
 
 Answer `y` to add the marketplace, then pick a scope (user scope is the default).
 
-In the desktop app, where `/plugin` does not run: click **+** next to the prompt box, then **Plugins**, **Add marketplace** with `eduardo-araujo-isi/claude-usage-bar`, then **Add plugin**.
+In the desktop app, where `/plugin` does not run: click **+** next to the prompt box, then **Plugins**, **Add marketplace** with `araujo-eduardo/claude-usage-bar`, then **Add plugin**.
 
 ## Configuration
 

@@ -3,8 +3,8 @@
   "version": "0.1.0",
   "description": "Claude usage in the status line (5h/week limits, context, cost) plus a pane with a 7-day token history",
   "author": { "name": "Eduardo Araújo" },
-  "homepage": "https://github.com/eduardo-araujo-isi/claude-usage-bar",
-  "repository": "https://github.com/eduardo-araujo-isi/claude-usage-bar",
+  "homepage": "https://github.com/araujo-eduardo/claude-usage-bar",
+  "repository": "https://github.com/araujo-eduardo/claude-usage-bar",
   "license": "MIT",
   "types": "./types/index.d.ts",
   "userConfig": {
