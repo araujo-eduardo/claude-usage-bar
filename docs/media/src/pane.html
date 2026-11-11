@@ -1,0 +1,66 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<title>usage-bar pane</title>
+<link rel="stylesheet" href="style.css">
+<style>
+  body { padding: 28px; width: 640px; }
+</style>
+</head>
+<body>
+<!-- Sample data, drawn to match the mod's pane on the desktop surface. -->
+<div class="window">
+  <div class="titlebar">
+    <span class="dot" style="background:#ff5f57"></span>
+    <span class="dot" style="background:#febc2e"></span>
+    <span class="dot" style="background:#28c840"></span>
+    <span class="title">Claude usage</span>
+  </div>
+  <div class="pane">
+    <div class="section">
+      <div class="h">Limits</div>
+      <div class="item">
+        <div class="row"><span>5 hours</span><span class="pct" style="color:var(--claude)">63%</span></div>
+        <div class="bar"><i style="width:63%;background:var(--claude)"></i></div>
+        <div class="sub">resets 20:50</div>
+      </div>
+      <div class="item">
+        <div class="row"><span>Week</span><span class="pct" style="color:var(--claude)">58%</span></div>
+        <div class="bar"><i style="width:58%;background:var(--claude)"></i></div>
+        <div class="sub">resets sat 10:00</div>
+      </div>
+    </div>
+
+    <div class="section">
+      <div class="h">Session</div>
+      <div class="item">
+        <div class="row"><span>Context</span><span class="num">18%</span></div>
+        <div class="bar"><i style="width:18%;background:var(--ctx)"></i></div>
+      </div>
+      <div class="row" style="margin-top:8px"><span>Cost</span><span class="num">$1.89</span></div>
+    </div>
+
+    <div class="section">
+      <div class="row"><span class="h">Last 7 days</span><span class="num">8.22M tokens · 11 turns</span></div>
+      <div class="days">
+        <div class="day"><span class="lbl">thu</span><div class="bar"></div><span class="v zero">0</span></div>
+        <div class="day"><span class="lbl">fri</span><div class="bar"></div><span class="v zero">0</span></div>
+        <div class="day"><span class="lbl">sat</span><div class="bar"></div><span class="v zero">0</span></div>
+        <div class="day"><span class="lbl">sun</span><div class="bar"></div><span class="v zero">0</span></div>
+        <div class="day"><span class="lbl">mon</span><div class="bar"><i style="width:66%;background:var(--claude)"></i></div><span class="v">2.84M</span></div>
+        <div class="day"><span class="lbl">tue</span><div class="bar"><i style="width:100%;background:var(--claude)"></i></div><span class="v">4.31M</span></div>
+        <div class="day today"><span class="lbl">wed</span><div class="bar"><i style="width:25%;background:var(--claude)"></i></div><span class="v">1.08M</span></div>
+      </div>
+      <div class="row models"><span style="color:var(--dim)">claude-opus-5-5</span><span class="num">8.22M · 11</span></div>
+      <div class="foot">Tokens include cache. History only counts sessions with the mod active.</div>
+    </div>
+  </div>
+  <div class="status">
+    <span class="mod">usage-bar</span>
+    <span class="line">5h 63% (20:50) <span class="sep">·</span> wk 58% <span class="sep">·</span> ctx 18% <span class="sep">·</span> $1.89</span>
+    <span class="model">Opus 5.5</span>
+  </div>
+</div>
+</body>
+</html>

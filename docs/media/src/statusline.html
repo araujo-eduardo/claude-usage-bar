@@ -1,0 +1,31 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<title>usage-bar status line</title>
+<link rel="stylesheet" href="style.css">
+<style>
+  body { padding: 20px; width: 760px; }
+  .window { border-radius: 10px; }
+  .status { border-top: 0; padding: 14px 18px; font-size: 15px; }
+  .chip { color: var(--dim); }
+</style>
+</head>
+<body>
+<!-- Sample data: the three color states of the status line. -->
+<div class="window">
+  <div class="status">
+    <span class="mod">usage-bar</span>
+    <span class="line">5h 42% (20:50) <span class="sep">·</span> wk 31% <span class="sep">·</span> ctx 12% <span class="sep">·</span> $0.64</span>
+    <span class="model">Opus 5.5</span><span class="chip">Medium</span>
+  </div>
+</div>
+<div class="window" style="margin-top:14px">
+  <div class="status">
+    <span class="mod">usage-bar</span>
+    <span class="line">5h 93% (21:00) <span class="sep">·</span> wk 58% <span class="sep">·</span> ctx 41% <span class="sep">·</span> $3.12</span>
+    <span class="model">Opus 5.5</span><span class="chip">Medium</span>
+  </div>
+</div>
+</body>
+</html>
