@@ -7,7 +7,7 @@
 
 [English](README.md) · **Português (Brasil)**
 
-**Um mod para o Claude Code que mantém seu uso do Claude à vista**: os limites de 5 horas e semanal, a ocupação do contexto e o custo da sessão na status line, mais um painel com o histórico de tokens dos últimos 7 dias. Todos os números vêm dos eventos de sessão do próprio Claude Code, e nada sai da sua máquina.
+**Um mod para o Claude Code que mostra para onde foram seus tokens na semana**: um painel com o histórico de tokens dos últimos 7 dias e o total por modelo, mais os limites de 5 horas e semanal com horário de reinício, a ocupação do contexto e o custo da sessão na status line, e um aviso quando a janela de 5 horas passa de 90%. Todos os números vêm dos eventos de sessão do próprio Claude Code, e nada sai da sua máquina.
 
 <p align="center">
   <img src="docs/media/pane.png" alt="O painel do usage-bar: barras dos limites de 5 horas e semanal com horário de reinício, contexto e custo, e histórico de 7 dias com total por modelo; a status line abaixo" width="560">

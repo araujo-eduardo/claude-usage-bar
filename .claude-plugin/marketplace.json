@@ -1,6 +1,6 @@
 {
   "name": "claude-usage-bar",
   "owner": { "name": "Eduardo Araújo" },
-  "description": "usage-bar: Claude usage (limits, context, cost, 7-day history) in the Claude Code status line and a side pane",
+  "description": "usage-bar: 7-day token history pane with per-model totals, plus 5h/weekly limits, context and cost in the status line",
   "plugins": [{ "name": "usage-bar", "source": "./" }]
 }

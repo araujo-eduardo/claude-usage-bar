@@ -7,7 +7,7 @@
 
 **English** · [Português (Brasil)](README.pt-BR.md)
 
-**A Claude Code mod that keeps your Claude usage in view**: the 5-hour and weekly rate limits, context fill and session cost in the status line, plus a pane with a 7-day token history. Every number comes from Claude Code's own session events, and nothing leaves your machine.
+**A Claude Code mod that shows where your tokens went this week**: a pane with a 7-day token history and per-model totals, plus the 5-hour and weekly plan limits with reset times, context fill and session cost in the status line, and a heads-up when the 5-hour window passes 90%. Every number comes from Claude Code's own session events, and nothing leaves your machine.
 
 <p align="center">
   <img src="docs/media/pane.png" alt="The usage-bar pane: 5-hour and weekly limit bars with reset times, context and cost, and a 7-day token history with a per-model total; the status line below it" width="560">

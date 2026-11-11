@@ -1,7 +1,7 @@
 {
   "name": "usage-bar",
   "version": "0.1.0",
-  "description": "Claude usage in the status line (5h/week limits, context, cost) plus a pane with a 7-day token history",
+  "description": "7-day token history pane with per-model totals, plus 5h/weekly limits, context and cost in the status line",
   "author": { "name": "Eduardo Araújo" },
   "homepage": "https://github.com/araujo-eduardo/claude-usage-bar",
   "repository": "https://github.com/araujo-eduardo/claude-usage-bar",
