@@ -1,5 +1,8 @@
 # usage-bar
 
+[![reach](https://raw.githubusercontent.com/karanb192/awesome-claude-code-mods/main/badges/araujo-eduardo--claude-usage-bar--usage-bar-reach.svg)](https://mods.aidojo.si/mods/araujo-eduardo--claude-usage-bar--usage-bar/)
+[![validates](https://raw.githubusercontent.com/karanb192/awesome-claude-code-mods/main/badges/araujo-eduardo--claude-usage-bar--usage-bar-validates.svg)](https://mods.aidojo.si/mods/araujo-eduardo--claude-usage-bar--usage-bar/)
+
 [![Release](https://img.shields.io/github/v/release/araujo-eduardo/claude-usage-bar)](https://github.com/araujo-eduardo/claude-usage-bar/releases/latest)
 [![License: MIT](https://img.shields.io/badge/license-MIT-blue.svg)](LICENSE)
 [![Claude Code mod](https://img.shields.io/badge/Claude%20Code-mod-d97757.svg)](https://claude.com/blog/claude-code-mods)
